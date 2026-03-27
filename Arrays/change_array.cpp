@@ -1,5 +1,6 @@
 #include <bits/stdc++.h>
 using namespace std;
+//pass by reference using array
 void ChangeArr(int arr[], int n){
     for (int i = 0; i<n; i++){
         arr[i]=2*arr[i];
